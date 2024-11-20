@@ -1,0 +1,46 @@
+.d_containerSlide{
+    width: 90%;
+    margin: auto;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    background-color: rgb(36, 34, 34);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.d_containerSlide h2{
+
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+}
+.img_Carroussel{
+    width: 95%;
+    text-align: center;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 5px #e504ec,
+    0px 0px 5px #e504ec,
+    0px 0px 5px #e504ec,
+    0px 0px 5px #e504ec,
+    0px 0px 5px #230024,
+    0px 0px 5px #e504ec;
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+@media (max-width:800px) {
+
+    /* .d_containerSlide{
+        width: 90%;
+    } */
+
+    /* .img_Carroussel{
+        width: 100%;
+    } */
+
+    
+}

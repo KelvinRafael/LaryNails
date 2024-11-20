@@ -1,0 +1,69 @@
+.d_container {
+  width: 90%;
+  margin: auto;
+}
+
+.d_container div {
+  text-align: center;
+}
+
+.d_container h2 {
+  font-size: 5vw;
+  padding-bottom: 4vw;
+}
+
+@keyframes borderAnimation {
+  0% {
+    box-shadow: 0px 0px 5px #e504ec;
+  }
+  15% {
+    box-shadow: 0px 0px 5px #e504ec 0px 0px 5px #e504ec;
+  }
+
+  30% {
+    box-shadow: 0px 0px 5px #e504ec 0px 0px 5px #e504ec 0px 0px 5px #e504ec;
+  }
+
+  45% {
+    box-shadow: 0px 0px 5px #e504ec 0px 0px 5px #e504ec 0px 0px 5px #e504ec 0px
+      0px 5px #e504ec;
+  }
+
+  60% {
+    box-shadow: 0px 0px 5px #e504ec 0px 0px 5px #e504ec 0px 0px 5px #e504ec 0px
+      0px 5px #e504ec 0px 0px 5px #e504ec;
+  }
+
+  75% {
+    box-shadow: 0px 0px 5px #e504ec 0px 0px 5px #e504ec 0px 0px 5px #e504ec 0px
+      0px 5px #e504ec 0px 0px 5px #e504ec 0px 0px 5px #e504ec;
+  }
+  100% {
+    box-shadow: 0px 0px 5px #e504ec 0px 0px 5px #e504ec 0px 0px 5px #e504ec 0px
+      0px 5px #e504ec 0px 0px 5px #e504ec 0px 0px 5px #e504ec;
+  }
+}
+
+.img_Carroussel {
+  width: 30vw;
+  text-align: center;
+  border-radius: 1vw;
+  /* box-shadow: 0px 0px 5px #e504ec; */
+  animation: borderAnimation 3s linear infinite;
+  margin-bottom: 3vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  transform: translateY(400px);
+  opacity: 0;
+}
+
+@media (max-width: 800px) {
+  .d_container {
+    width: 100%;
+  }
+
+  .img_Carroussel {
+    width: 40vw;
+  }
+}
